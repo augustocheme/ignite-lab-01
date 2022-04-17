@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../database/prisma/prisma.service';
-import slugify from 'slugify';
 
 interface CreateCustomerParams {
   authUserId: string;
